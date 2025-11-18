@@ -1,7 +1,8 @@
 % Modified CV code with uniformized date format (MM.YYYY)
 
 \documentclass{moderncv} 
-\usepackage[pdfborderstyle={/S/U/W 1},unicode]{hyperref}
+\usepackage{lmodern}
+
 
 % moderncv themes
 \moderncvcolor{blue}
@@ -12,6 +13,8 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
+\usepackage[pdfborderstyle={/S/U/W 1},unicode]{hyperref}
 
 \makeatletter
 \let\myemaillink\emaillink
